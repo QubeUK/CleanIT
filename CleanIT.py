@@ -1,5 +1,5 @@
 from datetime import datetime
-import configparser , re , os
+import configparser, re, os
 
 timestamp = datetime.now().strftime("%Y_%m_%d-%I_%M_%S")
 
