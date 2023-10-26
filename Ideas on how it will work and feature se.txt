@@ -1,0 +1,20 @@
+Ideas on how it will work and feature set
+
+
+Will read from config file
+Input Path
+    Looks for files in this location to clean - or jsut pass it the filename as command line parameter
+Output Path
+    Cleansed File, and Log output (what was done)
+Patterns to enable disable
+    IP Adress v4
+    IP Adress v6
+    URLs
+    FQDN
+    Domain Names
+    Server Names
+    Keyword list
+    Usernames
+    Version numbers
+
+(?:[0-9a-fA-F]:?){12} 
