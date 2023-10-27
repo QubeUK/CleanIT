@@ -30,7 +30,7 @@ with open(output, "w") as output_file:
 # Create summary report file
 summary = "Summary" + " " + timestamp + ".txt"
 with open(summary, "w") as summary_file:
-    summary_file.write("Matching on following patterns: " + regex_list.__str__() + '\n')
-    summary_file.write("Number of items in list to match: " + len(regex_list).__str__() + '\n')
-    summary_file.write(file.name + " lines processed: " + linecount.__str__() + '\n')
-    summary_file.write("Redactions in file: " + changes.__str__() +'\n')
+    summary_file.write("Matching on following patterns: " + str(regex_list) + '\n')
+    summary_file.write("Number of items in list to match: " + str(len(regex_list)) + '\n')
+    summary_file.write(file.name + " lines processed: " + str(linecount) + '\n')
+    summary_file.write("Redactions in file: " + str(changes) +'\n')
