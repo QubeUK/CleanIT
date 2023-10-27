@@ -12,7 +12,6 @@ log_file = (config['Paths']['logfile'])
 #regex_list = (config['Patterns']['Regex'].replace(",","").split())
 regex_list = [r"(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})", r"(?:[0-9a-fA-F]:?){12}", r"Number", r"character", r"effects", r"Giants"]
 
-changes = 0
 # Count Lines in logfile and do pattern matching
 with open(log_file,"r") as file:
     linecount = len(file.readlines())
